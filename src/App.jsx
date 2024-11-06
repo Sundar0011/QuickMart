@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import './App.css'
-import ProductList from './ProductList'
+import WelcomePage from './pages/WelcomePage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <ProductList/>
-    </>
+    <div>
+      <WelcomePage/>
+      
+    </div>
   )
 }
 
